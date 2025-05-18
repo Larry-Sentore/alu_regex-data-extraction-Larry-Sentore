@@ -2,7 +2,7 @@ import re
 #we will use regex to extract emails, phone numbers, hashes, and credit card numbers from a string
 
 #Importing the sample text from the file
-with open('sample.txt', 'r') as file:
+with open('sample.txt', 'r',  encoding='utf-8') as file:
     text = file.read()
 
 #assigning regex patterns to their respective variables
